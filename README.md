@@ -53,7 +53,7 @@ project-root/
 
 ⚙️ Installation & Setup
 1️⃣ Clone the repository
-git clone https://github.com/your-username/todo-auth-project.git
+git clone https://github.com/sahuaryan182-tech/todo-auth-app.git
 cd todo-auth-project
 2️⃣ Install backend dependencies
 cd backend
