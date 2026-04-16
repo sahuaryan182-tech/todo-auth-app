@@ -41,6 +41,7 @@ Thumbs.db
 backend/data/*.json
 data/*.json
 
+
 # =========================
 # Uploads (if you use later)
 # =========================
