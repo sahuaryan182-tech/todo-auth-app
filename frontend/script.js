@@ -49,7 +49,7 @@ async function login() {
       token = data.token;
       localStorage.setItem("token", token);
 
-      document.getElementById("auth").style.display = "none";
+      document.getElementById("authSection").style.display = "none";
       document.getElementById("todoApp").style.display = "block";
 
       loadTodos();
@@ -65,10 +65,11 @@ async function login() {
 // LOGOUT
 // =========================
 function logout() {
-  localStorage.removeItem("token");
+  //localStorage.removeItem("token");
+  localStorage.removeItem("token"); location.reload();
   token = null;
 
-  document.getElementById("auth").style.display = "block";
+  document.getElementById("authSection").style.display = "block";
   document.getElementById("todoApp").style.display = "none";
 }
 
@@ -132,7 +133,7 @@ async function deleteTodo(id) {
 
 // AUTO LOAD
 if (token) {
-  document.getElementById("auth").style.display = "none";
+  document.getElementById("authSection").style.display = "none";
   document.getElementById("todoApp").style.display = "block";
   loadTodos();
 }
