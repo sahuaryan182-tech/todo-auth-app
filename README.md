@@ -50,6 +50,7 @@ project-root/
 │   └── script.js
 │
 └── README.md
+
 ⚙️ Installation & Setup
 1️⃣ Clone the repository
 git clone https://github.com/your-username/todo-auth-project.git
@@ -89,6 +90,7 @@ Update Todo
 PUT /api/todos/:id
 Delete Todo
 DELETE /api/todos/:id
+
  Authentication Flow
 User registers → data saved in users.json
 User logs in → server validates credentials
